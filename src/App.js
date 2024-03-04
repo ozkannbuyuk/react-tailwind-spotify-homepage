@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import "./index.css";
+
+import LeftSidebar from "./LeftSidebar";
+import Feed from "./Feed";
+import RightSidebar from "./RightSidebar";
+import Footer from "./Footer";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-black w-screen h-screen">
+      <div className="grid grid-cols-5 gap-2 w-screen h-[39.33rem]">
+        <LeftSidebar></LeftSidebar>
+        <Feed></Feed>
+        <RightSidebar></RightSidebar>
+      </div>
+      <Footer></Footer>
     </div>
   );
-}
+};
 
 export default App;
