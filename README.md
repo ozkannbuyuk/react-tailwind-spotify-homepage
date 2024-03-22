@@ -2,6 +2,10 @@
    React - Tailwind CSS Spotify Homepage
 </h1>
 
+<h2>
+📷 Screenshots
+</h2>
+
 <p align="center">
   <img src="https://github.com/ozkannbuyuk/react-tailwind-spotify-homepage/assets/111967202/58765ba9-9f6d-4bf7-ab75-3cdca26d33c7" width="700" />
 </p>
